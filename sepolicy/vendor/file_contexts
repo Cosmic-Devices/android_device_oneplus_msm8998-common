@@ -40,6 +40,10 @@
 /sys/devices/virtual/graphics/fb0/panel_serial_number           u:object_r:sysfs_livedisplay_tuneable:s0
 /sys/devices/virtual/graphics/fb0/srgb                          u:object_r:sysfs_livedisplay_tuneable:s0
 
+# KCAL
+/sys/devices/platform/kcal_ctrl.0(/.*)?                                       u:object_r:kcal_dev:s0
+/sys/bus/platform/drivers/kcal_ctrl(/.*)?                                     u:object_r:kcal_dev:s0
+
 # Keylayout
 /vendor/usr/keylayout/fpc1020.kl                                u:object_r:vendor_keylayout_file:s0
 /vendor/usr/keylayout/synaptics.kl                              u:object_r:vendor_keylayout_file:s0
