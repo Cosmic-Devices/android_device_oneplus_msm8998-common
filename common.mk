@@ -335,6 +335,19 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1
 
+# OnePlus Camera and Gallery
+PRODUCT_PACKAGES += \
+    OnePlusCamera \
+    OnePlusGallery \
+    OnePlusCameraService
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/common/addon.d/51-oneplus-camera.sh:system/addon.d/51-oneplus-camera.sh  \
+    $(LOCAL_PATH)/prebuilt/common/lib/libopcameralib-em.so:system/lib/libopcameralib-em.so  \
+    $(LOCAL_PATH)/prebuilt/common/lib/libstagefright.so:system/lib/libstagefright.so  \
+    $(LOCAL_PATH)/prebuilt/common/lib64/libstagefright.so:system/lib64/libstagefright.so  \
+    $(LOCAL_PATH)/prebuilt/common/etc/permissions/privapp-permissions-oem.xml:system/etc/permissions/privapp-permissions-oem.xml
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
