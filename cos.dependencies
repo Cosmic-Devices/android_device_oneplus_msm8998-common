@@ -2,6 +2,7 @@
   {
     "repository": "RaphielGang/android_kernel_oneplus_msm8998",
     "target_path": "kernel/oneplus/msm8998",
+    "remote": "github",
     "branch": "pie-r2"
   },
   {
