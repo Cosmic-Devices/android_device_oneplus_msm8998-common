@@ -1,0 +1,22 @@
+[
+  {
+    "repository":  "RaphielGang/android_kernel_oneplus_msm8998",
+    "target_path": "kernel/oneplus/msm8998",
+    "remote":      "github",
+    "branch":      "pie-r2"
+  },
+  {
+    "repository":  "Cosmic-OS/aarch64-elf-gcc",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/gcc-9.1",
+    "remote":      "github"
+  },
+  {
+    "repository":  "Cosmic-OS/arm-eabi-gcc",
+    "target_path": "prebuilts/gcc/linux-x86/arm/gcc-9.1",
+    "remote":      "github"
+  },
+  {
+    "repository":  "proprietary_vendor_oneplus",
+    "target_path": "vendor/oneplus"
+  }
+]
