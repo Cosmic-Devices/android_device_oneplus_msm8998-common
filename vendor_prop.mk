@@ -89,13 +89,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.oneplus.camera,com.android.camera,org.lineageos.snap \
-    camera.hal1.packagelist=com.oneplus.camera,com.whatsapp \
+    vendor.camera.hal1.packagelist=com.whatsapp \
     persist.camera.mobicat=2 \
     persist.camera.stats.debugexif=3080192 \
     persist.ts.rtmakeup=false \
-    persist.vendor.camera.tintless.skip=1 \
-    camera.disable_zsl_mode=true \
-    persist.sys.camera.preview.size=1920x1080
+    persist.vendor.camera.tintless.skip=1
 
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
