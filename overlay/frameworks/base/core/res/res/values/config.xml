@@ -667,4 +667,7 @@
 
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">false</bool>
+
+    <!-- Whether to enable OP5/T cam hack -->
+    <bool name="config_enableOPcamhack">true</bool>
 </resources>
