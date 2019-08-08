@@ -672,4 +672,7 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>com.oneplus.settings.device.KeyHandler</item>
     </string-array>
+
+    <!-- Whether to enable OP5/T cam hack -->
+    <bool name="config_enableOPcamhack">true</bool>
 </resources>
