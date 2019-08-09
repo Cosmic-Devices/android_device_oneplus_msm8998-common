@@ -154,11 +154,11 @@ PRODUCT_PACKAGES += \
 # ConfigPanel
 PRODUCT_PACKAGES += \
     ConfigPanel \
-    com.cyanogenmod.keyhandler
+    com.oneplus.keyhandler
 
-PRODUCT_SYSTEM_SERVER_JARS += com.cyanogenmod.keyhandler
+PRODUCT_SYSTEM_SERVER_JARS += com.oneplus.keyhandler
 
-$(call add-product-dex-preopt-module-config,com.cyanogenmod.keyhandler,disable)
+$(call add-product-dex-preopt-module-config,com.oneplus.keyhandler,disable)
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
