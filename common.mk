@@ -151,15 +151,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     services-ext
 
-# ConfigPanel
-PRODUCT_PACKAGES += \
-    ConfigPanel \
-    com.cyanogenmod.keyhandler
-
-PRODUCT_SYSTEM_SERVER_JARS += com.cyanogenmod.keyhandler
-
-$(call add-product-dex-preopt-module-config,com.cyanogenmod.keyhandler,disable)
-
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
