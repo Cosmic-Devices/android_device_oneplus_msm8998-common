@@ -151,6 +151,16 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     services-ext
 
+# ConfigPanel
+PRODUCT_PACKAGES += \
+    ConfigPanel \
+    com.oneplus.keyhandler
+
+PRODUCT_SYSTEM_SERVER_JARS += com.oneplus.keyhandler
+
+# never dexopt the keyhandler
+$(call add-product-dex-preopt-module-config,com.oneplus.keyhandler,disable)
+
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
